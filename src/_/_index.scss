@@ -1,0 +1,75 @@
+@use 'sass:map';
+
+@function first-letter($str) {
+  @return str-slice($str, 1, 1);
+}
+
+@mixin __init-property($property, $val) {
+  @if first-letter($property) == '@' {
+    @if $property == '@extend' {
+      @each $extendVal in $property {
+        @extend #{$val};
+      }
+    }
+  }
+
+  @else {
+    #{$property}: rem($val);
+  }
+}
+
+@function map-has-keys($map, $keys) {
+  @each $key in $keys {
+    @if map-has-key($map, $key) {
+      @return true;
+    }
+  }
+
+  @return false;
+}
+
+@mixin __breakpoints-init($property, $object, $name, $value) {
+  $breakpoints-keys: map.keys($breakpoints);
+
+  @if map-has-keys($object, $breakpoints-keys) {
+    @if map-get($breakpoints, $name) == 0 {
+      @include __init-property($property, $value);
+    }
+
+    @else {
+      @media #{mq($name)} {
+        @include __init-property($property, $value);
+      }
+    }
+  }
+}
+
+@mixin __inner-init($action, $name, $value) {
+  @if str-index($action, '&') == 1 {
+    #{$action} {
+      @include __init-map($value, $name, false);
+    }
+  }
+}
+
+@mixin __init-map($thing, $property, $is-action: true) {
+  @if type-of($thing) == 'map' {
+    @each $name, $value in $thing {
+      @include __breakpoints-init($property, $thing, $name, $value);
+
+      @if $is-action {
+        @include __inner-init($property, $name, $value);
+      }
+    }
+  }
+
+  @else {
+    @include __init-property($property, $thing);
+  }
+}
+
+@mixin _($prop) {
+  @each $name, $value in $prop {
+    @include __init-map($value, $name);
+  }
+}

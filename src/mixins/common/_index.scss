@@ -1,0 +1,1711 @@
+@mixin align-content($n) {
+  @include _((align-content: $n));
+}
+
+@mixin align-items($n) {
+  @include _((align-items: $n));
+}
+
+@mixin align-self($n) {
+  @include _((align-self: $n));
+}
+
+@mixin alignment-baseline($n) {
+  @include _((alignment-baseline: $n));
+}
+
+@mixin all($n) {
+  @include _((all: $n));
+}
+
+@mixin animation($n) {
+  @include _((animation: $n));
+}
+
+@mixin animation-delay($n) {
+  @include _((animation-delay: $n));
+}
+
+@mixin animation-direction($n) {
+  @include _((animation-direction: $n));
+}
+
+@mixin animation-duration($n) {
+  @include _((animation-duration: $n));
+}
+
+@mixin animation-fill-mode($n) {
+  @include _((animation-fill-mode: $n));
+}
+
+@mixin animation-iteration-count($n) {
+  @include _((animation-iteration-count: $n));
+}
+
+@mixin animation-name($n) {
+  @include _((animation-name: $n));
+}
+
+@mixin animation-play-state($n) {
+  @include _((animation-play-state: $n));
+}
+
+@mixin animation-timing-function($n) {
+  @include _((animation-timing-function: $n));
+}
+
+@mixin appearance($n) {
+  @include _((appearance: $n));
+}
+
+@mixin azimuth($n) {
+  @include _((azimuth: $n));
+}
+
+@mixin backface-visibility($n) {
+  @include _((backface-visibility: $n));
+}
+
+@mixin background($n) {
+  @include _((background: $n));
+}
+
+@mixin background-attachment($n) {
+  @include _((background-attachment: $n));
+}
+
+@mixin background-blend-mode($n) {
+  @include _((background-blend-mode: $n));
+}
+
+@mixin background-clip($n) {
+  @include _((background-clip: $n));
+}
+
+@mixin background-color($n) {
+  @include _((background-color: $n));
+}
+
+@mixin background-image($n) {
+  @include _((background-image: $n));
+}
+
+@mixin background-origin($n) {
+  @include _((background-origin: $n));
+}
+
+@mixin background-position($n) {
+  @include _((background-position: $n));
+}
+
+@mixin background-repeat($n) {
+  @include _((background-repeat: $n));
+}
+
+@mixin background-size($n) {
+  @include _((background-size: $n));
+}
+
+@mixin baseline-shift($n) {
+  @include _((baseline-shift: $n));
+}
+
+@mixin block-step($n) {
+  @include _((block-step: $n));
+}
+
+@mixin block-step-align($n) {
+  @include _((block-step-align: $n));
+}
+
+@mixin block-step-insert($n) {
+  @include _((block-step-insert: $n));
+}
+
+@mixin block-step-round($n) {
+  @include _((block-step-round: $n));
+}
+
+@mixin block-step-size($n) {
+  @include _((block-step-size: $n));
+}
+
+@mixin bookmark-label($n) {
+  @include _((bookmark-label: $n));
+}
+
+@mixin bookmark-level($n) {
+  @include _((bookmark-level: $n));
+}
+
+@mixin bookmark-state($n) {
+  @include _((bookmark-state: $n));
+}
+
+@mixin border($n) {
+  @include _((border: $n));
+}
+
+@mixin border-bottom($n) {
+  @include _((border-bottom: $n));
+}
+
+@mixin border-bottom-color($n) {
+  @include _((border-bottom-color: $n));
+}
+
+@mixin border-bottom-left-radius($n) {
+  @include _((border-bottom-left-radius: $n));
+}
+
+@mixin border-bottom-right-radius($n) {
+  @include _((border-bottom-right-radius: $n));
+}
+
+@mixin border-bottom-style($n) {
+  @include _((border-bottom-style: $n));
+}
+
+@mixin border-bottom-width($n) {
+  @include _((border-bottom-width: $n));
+}
+
+@mixin border-boundary($n) {
+  @include _((border-boundary: $n));
+}
+
+@mixin border-collapse($n) {
+  @include _((border-collapse: $n));
+}
+
+@mixin border-color($n) {
+  @include _((border-color: $n));
+}
+
+@mixin border-image($n) {
+  @include _((border-image: $n));
+}
+
+@mixin border-image-outset($n) {
+  @include _((border-image-outset: $n));
+}
+
+@mixin border-image-repeat($n) {
+  @include _((border-image-repeat: $n));
+}
+
+@mixin border-image-slice($n) {
+  @include _((border-image-slice: $n));
+}
+
+@mixin border-image-source($n) {
+  @include _((border-image-source: $n));
+}
+
+@mixin border-image-width($n) {
+  @include _((border-image-width: $n));
+}
+
+@mixin border-left($n) {
+  @include _((border-left: $n));
+}
+
+@mixin border-left-color($n) {
+  @include _((border-left-color: $n));
+}
+
+@mixin border-left-style($n) {
+  @include _((border-left-style: $n));
+}
+
+@mixin border-left-width($n) {
+  @include _((border-left-width: $n));
+}
+
+@mixin border-radius($n) {
+  @include _((border-radius: $n));
+}
+
+@mixin border-right($n) {
+  @include _((border-right: $n));
+}
+
+@mixin border-right-color($n) {
+  @include _((border-right-color: $n));
+}
+
+@mixin border-right-style($n) {
+  @include _((border-right-style: $n));
+}
+
+@mixin border-right-width($n) {
+  @include _((border-right-width: $n));
+}
+
+@mixin border-spacing($n) {
+  @include _((border-spacing: $n));
+}
+
+@mixin border-style($n) {
+  @include _((border-style: $n));
+}
+
+@mixin border-top($n) {
+  @include _((border-top: $n));
+}
+
+@mixin border-top-color($n) {
+  @include _((border-top-color: $n));
+}
+
+@mixin border-top-left-radius($n) {
+  @include _((border-top-left-radius: $n));
+}
+
+@mixin border-top-right-radius($n) {
+  @include _((border-top-right-radius: $n));
+}
+
+@mixin border-top-style($n) {
+  @include _((border-top-style: $n));
+}
+
+@mixin border-top-width($n) {
+  @include _((border-top-width: $n));
+}
+
+@mixin border-width($n) {
+  @include _((border-width: $n));
+}
+
+@mixin bottom($n) {
+  @include _((bottom: $n));
+}
+
+@mixin box-decoration-break($n) {
+  @include _((box-decoration-break: $n));
+}
+
+@mixin box-shadow($n) {
+  @include _((box-shadow: $n));
+}
+
+@mixin box-sizing($n) {
+  @include _((box-sizing: $n));
+}
+
+@mixin box-snap($n) {
+  @include _((box-snap: $n));
+}
+
+@mixin break-after($n) {
+  @include _((break-after: $n));
+}
+
+@mixin break-before($n) {
+  @include _((break-before: $n));
+}
+
+@mixin break-inside($n) {
+  @include _((break-inside: $n));
+}
+
+@mixin caption-side($n) {
+  @include _((caption-side: $n));
+}
+
+@mixin caret($n) {
+  @include _((caret: $n));
+}
+
+@mixin caret-animation($n) {
+  @include _((caret-animation: $n));
+}
+
+@mixin caret-color($n) {
+  @include _((caret-color: $n));
+}
+
+@mixin caret-shape($n) {
+  @include _((caret-shape: $n));
+}
+
+@mixin chains($n) {
+  @include _((chains: $n));
+}
+
+@mixin clear($n) {
+  @include _((clear: $n));
+}
+
+@mixin clip($n) {
+  @include _((clip: $n));
+}
+
+@mixin clip-path($n) {
+  @include _((clip-path: $n));
+}
+
+@mixin clip-rule($n) {
+  @include _((clip-rule: $n));
+}
+
+@mixin color($n) {
+  @include _((color: $n));
+}
+
+@mixin color-adjust($n) {
+  @include _((color-adjust: $n));
+}
+
+@mixin color-interpolation-filters($n) {
+  @include _((color-interpolation-filters: $n));
+}
+
+@mixin column-count($n) {
+  @include _((column-count: $n));
+}
+
+@mixin column-fill($n) {
+  @include _((column-fill: $n));
+}
+
+@mixin column-gap($n) {
+  @include _((column-gap: $n));
+}
+
+@mixin column-rule($n) {
+  @include _((column-rule: $n));
+}
+
+@mixin column-rule-color($n) {
+  @include _((column-rule-color: $n));
+}
+
+@mixin column-rule-style($n) {
+  @include _((column-rule-style: $n));
+}
+
+@mixin column-rule-width($n) {
+  @include _((column-rule-width: $n));
+}
+
+@mixin column-span($n) {
+  @include _((column-span: $n));
+}
+
+@mixin column-width($n) {
+  @include _((column-width: $n));
+}
+
+@mixin columns($n) {
+  @include _((columns: $n));
+}
+
+@mixin contain($n) {
+  @include _((contain: $n));
+}
+
+@mixin content($n) {
+  @include _((content: $n));
+}
+
+@mixin continue($n) {
+  @include _((continue: $n));
+}
+
+@mixin counter-increment($n) {
+  @include _((counter-increment: $n));
+}
+
+@mixin counter-reset($n) {
+  @include _((counter-reset: $n));
+}
+
+@mixin counter-set($n) {
+  @include _((counter-set: $n));
+}
+
+@mixin cue($n) {
+  @include _((cue: $n));
+}
+
+@mixin cue-after($n) {
+  @include _((cue-after: $n));
+}
+
+@mixin cue-before($n) {
+  @include _((cue-before: $n));
+}
+
+@mixin cursor($n) {
+  @include _((cursor: $n));
+}
+
+@mixin direction($n) {
+  @include _((direction: $n));
+}
+
+@mixin display($n) {
+  @include _((display: $n));
+}
+
+@mixin dominant-baseline($n) {
+  @include _((dominant-baseline: $n));
+}
+
+@mixin elevation($n) {
+  @include _((elevation: $n));
+}
+
+@mixin empty-cells($n) {
+  @include _((empty-cells: $n));
+}
+
+@mixin filter($n) {
+  @include _((filter: $n));
+}
+
+@mixin flex($n) {
+  @include _((flex: $n));
+}
+
+@mixin flex-basis($n) {
+  @include _((flex-basis: $n));
+}
+
+@mixin flex-direction($n) {
+  @include _((flex-direction: $n));
+}
+
+@mixin flex-flow($n) {
+  @include _((flex-flow: $n));
+}
+
+@mixin flex-grow($n) {
+  @include _((flex-grow: $n));
+}
+
+@mixin flex-shrink($n) {
+  @include _((flex-shrink: $n));
+}
+
+@mixin flex-wrap($n) {
+  @include _((flex-wrap: $n));
+}
+
+@mixin float($n) {
+  @include _((float: $n));
+}
+
+@mixin float-defer($n) {
+  @include _((float-defer: $n));
+}
+
+@mixin float-offset($n) {
+  @include _((float-offset: $n));
+}
+
+@mixin float-reference($n) {
+  @include _((float-reference: $n));
+}
+
+@mixin flood-color($n) {
+  @include _((flood-color: $n));
+}
+
+@mixin flood-opacity($n) {
+  @include _((flood-opacity: $n));
+}
+
+@mixin flow($n) {
+  @include _((flow: $n));
+}
+
+@mixin flow-from($n) {
+  @include _((flow-from: $n));
+}
+
+@mixin flow-into($n) {
+  @include _((flow-into: $n));
+}
+
+@mixin font($n) {
+  @include _((font: $n));
+}
+
+@mixin font-family($n) {
+  @include _((font-family: $n));
+}
+
+@mixin font-feature-settings($n) {
+  @include _((font-feature-settings: $n));
+}
+
+@mixin font-kerning($n) {
+  @include _((font-kerning: $n));
+}
+
+@mixin font-language-override($n) {
+  @include _((font-language-override: $n));
+}
+
+@mixin font-size($n) {
+  @include _((font-size: $n));
+}
+
+@mixin font-size-adjust($n) {
+  @include _((font-size-adjust: $n));
+}
+
+@mixin font-stretch($n) {
+  @include _((font-stretch: $n));
+}
+
+@mixin font-style($n) {
+  @include _((font-style: $n));
+}
+
+@mixin font-synthesis($n) {
+  @include _((font-synthesis: $n));
+}
+
+@mixin font-variant($n) {
+  @include _((font-variant: $n));
+}
+
+@mixin font-variant-alternates($n) {
+  @include _((font-variant-alternates: $n));
+}
+
+@mixin font-variant-caps($n) {
+  @include _((font-variant-caps: $n));
+}
+
+@mixin font-variant-east-asian($n) {
+  @include _((font-variant-east-asian: $n));
+}
+
+@mixin font-variant-ligatures($n) {
+  @include _((font-variant-ligatures: $n));
+}
+
+@mixin font-variant-numeric($n) {
+  @include _((font-variant-numeric: $n));
+}
+
+@mixin font-variant-position($n) {
+  @include _((font-variant-position: $n));
+}
+
+@mixin font-weight($n) {
+  @include _((font-weight: $n));
+}
+
+@mixin footnote-display($n) {
+  @include _((footnote-display: $n));
+}
+
+@mixin footnote-policy($n) {
+  @include _((footnote-policy: $n));
+}
+
+@mixin glyph-orientation-vertical($n) {
+  @include _((glyph-orientation-vertical: $n));
+}
+
+@mixin grid($n) {
+  @include _((grid: $n));
+}
+
+@mixin grid-area($n) {
+  @include _((grid-area: $n));
+}
+
+@mixin grid-auto-columns($n) {
+  @include _((grid-auto-columns: $n));
+}
+
+@mixin grid-auto-flow($n) {
+  @include _((grid-auto-flow: $n));
+}
+
+@mixin grid-auto-rows($n) {
+  @include _((grid-auto-rows: $n));
+}
+
+@mixin grid-column($n) {
+  @include _((grid-column: $n));
+}
+
+@mixin grid-column-end($n) {
+  @include _((grid-column-end: $n));
+}
+
+@mixin grid-column-gap($n) {
+  @include _((grid-column-gap: $n));
+}
+
+@mixin grid-column-start($n) {
+  @include _((grid-column-start: $n));
+}
+
+@mixin grid-row($n) {
+  @include _((grid-row: $n));
+}
+
+@mixin grid-row-end($n) {
+  @include _((grid-row-end: $n));
+}
+
+@mixin grid-row-gap($n) {
+  @include _((grid-row-gap: $n));
+}
+
+@mixin grid-row-start($n) {
+  @include _((grid-row-start: $n));
+}
+
+@mixin grid-template($n) {
+  @include _((grid-template: $n));
+}
+
+@mixin grid-template-areas($n) {
+  @include _((grid-template-areas: $n));
+}
+
+@mixin grid-template-columns($n) {
+  @include _((grid-template-columns: $n));
+}
+
+@mixin grid-template-rows($n) {
+  @include _((grid-template-rows: $n));
+}
+
+@mixin hanging-punctuation($n) {
+  @include _((hanging-punctuation: $n));
+}
+
+@mixin height($n) {
+  @include _((height: $n));
+}
+
+@mixin hyphenate-character($n) {
+  @include _((hyphenate-character: $n));
+}
+
+@mixin hyphenate-limit-chars($n) {
+  @include _((hyphenate-limit-chars: $n));
+}
+
+@mixin hyphenate-limit-last($n) {
+  @include _((hyphenate-limit-last: $n));
+}
+
+@mixin hyphenate-limit-lines($n) {
+  @include _((hyphenate-limit-lines: $n));
+}
+
+@mixin hyphenate-limit-zone($n) {
+  @include _((hyphenate-limit-zone: $n));
+}
+
+@mixin hyphens($n) {
+  @include _((hyphens: $n));
+}
+
+@mixin image-orientation($n) {
+  @include _((image-orientation: $n));
+}
+
+@mixin image-rendering($n) {
+  @include _((image-rendering: $n));
+}
+
+@mixin image-resolution($n) {
+  @include _((image-resolution: $n));
+}
+
+@mixin initial-letter($n) {
+  @include _((initial-letter: $n));
+}
+
+@mixin initial-letter-align($n) {
+  @include _((initial-letter-align: $n));
+}
+
+@mixin initial-letter-wrap($n) {
+  @include _((initial-letter-wrap: $n));
+}
+
+@mixin isolation($n) {
+  @include _((isolation: $n));
+}
+
+@mixin justify-content($n) {
+  @include _((justify-content: $n));
+}
+
+@mixin justify-items($n) {
+  @include _((justify-items: $n));
+}
+
+@mixin justify-self($n) {
+  @include _((justify-self: $n));
+}
+
+@mixin left($n) {
+  @include _((left: $n));
+}
+
+@mixin letter-spacing($n) {
+  @include _((letter-spacing: $n));
+}
+
+@mixin lighting-color($n) {
+  @include _((lighting-color: $n));
+}
+
+@mixin line-break($n) {
+  @include _((line-break: $n));
+}
+
+@mixin line-grid($n) {
+  @include _((line-grid: $n));
+}
+
+@mixin line-height($n) {
+  @include _((line-height: $n));
+}
+
+@mixin line-height-step($n) {
+  @include _((line-height-step: $n));
+}
+
+@mixin line-snap($n) {
+  @include _((line-snap: $n));
+}
+
+@mixin list-style($n) {
+  @include _((list-style: $n));
+}
+
+@mixin list-style-image($n) {
+  @include _((list-style-image: $n));
+}
+
+@mixin list-style-position($n) {
+  @include _((list-style-position: $n));
+}
+
+@mixin list-style-type($n) {
+  @include _((list-style-type: $n));
+}
+
+@mixin margin($n) {
+  @include _((margin: $n));
+}
+
+@mixin margin-bottom($n) {
+  @include _((margin-bottom: $n));
+}
+
+@mixin margin-left($n) {
+  @include _((margin-left: $n));
+}
+
+@mixin margin-right($n) {
+  @include _((margin-right: $n));
+}
+
+@mixin margin-top($n) {
+  @include _((margin-top: $n));
+}
+
+@mixin marker($n) {
+  @include _((marker: $n));
+}
+
+@mixin marker-end($n) {
+  @include _((marker-end: $n));
+}
+
+@mixin marker-knockout-left($n) {
+  @include _((marker-knockout-left: $n));
+}
+
+@mixin marker-knockout-right($n) {
+  @include _((marker-knockout-right: $n));
+}
+
+@mixin marker-mid($n) {
+  @include _((marker-mid: $n));
+}
+
+@mixin marker-pattern($n) {
+  @include _((marker-pattern: $n));
+}
+
+@mixin marker-segment($n) {
+  @include _((marker-segment: $n));
+}
+
+@mixin marker-side($n) {
+  @include _((marker-side: $n));
+}
+
+@mixin marker-start($n) {
+  @include _((marker-start: $n));
+}
+
+@mixin marquee-direction($n) {
+  @include _((marquee-direction: $n));
+}
+
+@mixin marquee-loop($n) {
+  @include _((marquee-loop: $n));
+}
+
+@mixin marquee-speed($n) {
+  @include _((marquee-speed: $n));
+}
+
+@mixin marquee-style($n) {
+  @include _((marquee-style: $n));
+}
+
+@mixin mask($n) {
+  @include _((mask: $n));
+}
+
+@mixin mask-border($n) {
+  @include _((mask-border: $n));
+}
+
+@mixin mask-border-mode($n) {
+  @include _((mask-border-mode: $n));
+}
+
+@mixin mask-border-outset($n) {
+  @include _((mask-border-outset: $n));
+}
+
+@mixin mask-border-repeat($n) {
+  @include _((mask-border-repeat: $n));
+}
+
+@mixin mask-border-slice($n) {
+  @include _((mask-border-slice: $n));
+}
+
+@mixin mask-border-source($n) {
+  @include _((mask-border-source: $n));
+}
+
+@mixin mask-border-width($n) {
+  @include _((mask-border-width: $n));
+}
+
+@mixin mask-clip($n) {
+  @include _((mask-clip: $n));
+}
+
+@mixin mask-composite($n) {
+  @include _((mask-composite: $n));
+}
+
+@mixin mask-image($n) {
+  @include _((mask-image: $n));
+}
+
+@mixin mask-mode($n) {
+  @include _((mask-mode: $n));
+}
+
+@mixin mask-origin($n) {
+  @include _((mask-origin: $n));
+}
+
+@mixin mask-position($n) {
+  @include _((mask-position: $n));
+}
+
+@mixin mask-repeat($n) {
+  @include _((mask-repeat: $n));
+}
+
+@mixin mask-size($n) {
+  @include _((mask-size: $n));
+}
+
+@mixin mask-type($n) {
+  @include _((mask-type: $n));
+}
+
+@mixin max-height($n) {
+  @include _((max-height: $n));
+}
+
+@mixin max-lines($n) {
+  @include _((max-lines: $n));
+}
+
+@mixin max-width($n) {
+  @include _((max-width: $n));
+}
+
+@mixin min-height($n) {
+  @include _((min-height: $n));
+}
+
+@mixin min-width($n) {
+  @include _((min-width: $n));
+}
+
+@mixin mix-blend-mode($n) {
+  @include _((mix-blend-mode: $n));
+}
+
+@mixin motion($n) {
+  @include _((motion: $n));
+}
+
+@mixin motion-offset($n) {
+  @include _((motion-offset: $n));
+}
+
+@mixin motion-path($n) {
+  @include _((motion-path: $n));
+}
+
+@mixin motion-rotation($n) {
+  @include _((motion-rotation: $n));
+}
+
+@mixin nav-down($n) {
+  @include _((nav-down: $n));
+}
+
+@mixin nav-left($n) {
+  @include _((nav-left: $n));
+}
+
+@mixin nav-right($n) {
+  @include _((nav-right: $n));
+}
+
+@mixin nav-up($n) {
+  @include _((nav-up: $n));
+}
+
+@mixin object-fit($n) {
+  @include _((object-fit: $n));
+}
+
+@mixin object-position($n) {
+  @include _((object-position: $n));
+}
+
+@mixin offset($n) {
+  @include _((offset: $n));
+}
+
+@mixin offset-after($n) {
+  @include _((offset-after: $n));
+}
+
+@mixin offset-anchor($n) {
+  @include _((offset-anchor: $n));
+}
+
+@mixin offset-before($n) {
+  @include _((offset-before: $n));
+}
+
+@mixin offset-distance($n) {
+  @include _((offset-distance: $n));
+}
+
+@mixin offset-end($n) {
+  @include _((offset-end: $n));
+}
+
+@mixin offset-path($n) {
+  @include _((offset-path: $n));
+}
+
+@mixin offset-position($n) {
+  @include _((offset-position: $n));
+}
+
+@mixin offset-rotate($n) {
+  @include _((offset-rotate: $n));
+}
+
+@mixin offset-start($n) {
+  @include _((offset-start: $n));
+}
+
+@mixin opacity($n) {
+  @include _((opacity: $n));
+}
+
+@mixin order($n) {
+  @include _((order: $n));
+}
+
+@mixin orphans($n) {
+  @include _((orphans: $n));
+}
+
+@mixin outline($n) {
+  @include _((outline: $n));
+}
+
+@mixin outline-color($n) {
+  @include _((outline-color: $n));
+}
+
+@mixin outline-offset($n) {
+  @include _((outline-offset: $n));
+}
+
+@mixin outline-style($n) {
+  @include _((outline-style: $n));
+}
+
+@mixin outline-width($n) {
+  @include _((outline-width: $n));
+}
+
+@mixin overflow($n) {
+  @include _((overflow: $n));
+}
+
+@mixin overflow-style($n) {
+  @include _((overflow-style: $n));
+}
+
+@mixin overflow-wrap($n) {
+  @include _((overflow-wrap: $n));
+}
+
+@mixin overflow-x($n) {
+  @include _((overflow-x: $n));
+}
+
+@mixin overflow-y($n) {
+  @include _((overflow-y: $n));
+}
+
+@mixin padding($n) {
+  @include _((padding: $n));
+}
+
+@mixin padding-bottom($n) {
+  @include _((padding-bottom: $n));
+}
+
+@mixin padding-left($n) {
+  @include _((padding-left: $n));
+}
+
+@mixin padding-right($n) {
+  @include _((padding-right: $n));
+}
+
+@mixin padding-top($n) {
+  @include _((padding-top: $n));
+}
+
+@mixin page($n) {
+  @include _((page: $n));
+}
+
+@mixin page-break-after($n) {
+  @include _((page-break-after: $n));
+}
+
+@mixin page-break-before($n) {
+  @include _((page-break-before: $n));
+}
+
+@mixin page-break-inside($n) {
+  @include _((page-break-inside: $n));
+}
+
+@mixin pause($n) {
+  @include _((pause: $n));
+}
+
+@mixin pause-after($n) {
+  @include _((pause-after: $n));
+}
+
+@mixin pause-before($n) {
+  @include _((pause-before: $n));
+}
+
+@mixin perspective($n) {
+  @include _((perspective: $n));
+}
+
+@mixin perspective-origin($n) {
+  @include _((perspective-origin: $n));
+}
+
+@mixin pitch($n) {
+  @include _((pitch: $n));
+}
+
+@mixin pitch-range($n) {
+  @include _((pitch-range: $n));
+}
+
+@mixin place-content($n) {
+  @include _((place-content: $n));
+}
+
+@mixin place-items($n) {
+  @include _((place-items: $n));
+}
+
+@mixin place-self($n) {
+  @include _((place-self: $n));
+}
+
+@mixin play-during($n) {
+  @include _((play-during: $n));
+}
+
+@mixin position($n) {
+  @include _((position: $n));
+}
+
+@mixin presentation-level($n) {
+  @include _((presentation-level: $n));
+}
+
+@mixin quotes($n) {
+  @include _((quotes: $n));
+}
+
+@mixin region-fragment($n) {
+  @include _((region-fragment: $n));
+}
+
+@mixin resize($n) {
+  @include _((resize: $n));
+}
+
+@mixin rest($n) {
+  @include _((rest: $n));
+}
+
+@mixin rest-after($n) {
+  @include _((rest-after: $n));
+}
+
+@mixin rest-before($n) {
+  @include _((rest-before: $n));
+}
+
+@mixin richness($n) {
+  @include _((richness: $n));
+}
+
+@mixin right($n) {
+  @include _((right: $n));
+}
+
+@mixin rotation($n) {
+  @include _((rotation: $n));
+}
+
+@mixin rotation-point($n) {
+  @include _((rotation-point: $n));
+}
+
+@mixin ruby-align($n) {
+  @include _((ruby-align: $n));
+}
+
+@mixin ruby-merge($n) {
+  @include _((ruby-merge: $n));
+}
+
+@mixin ruby-position($n) {
+  @include _((ruby-position: $n));
+}
+
+@mixin running($n) {
+  @include _((running: $n));
+}
+
+@mixin scroll-behavior($n) {
+  @include _((scroll-behavior: $n));
+}
+
+@mixin scroll-padding($n) {
+  @include _((scroll-padding: $n));
+}
+
+@mixin scroll-padding-block($n) {
+  @include _((scroll-padding-block: $n));
+}
+
+@mixin scroll-padding-block-end($n) {
+  @include _((scroll-padding-block-end: $n));
+}
+
+@mixin scroll-padding-block-start($n) {
+  @include _((scroll-padding-block-start: $n));
+}
+
+@mixin scroll-padding-bottom($n) {
+  @include _((scroll-padding-bottom: $n));
+}
+
+@mixin scroll-padding-inline($n) {
+  @include _((scroll-padding-inline: $n));
+}
+
+@mixin scroll-padding-inline-end($n) {
+  @include _((scroll-padding-inline-end: $n));
+}
+
+@mixin scroll-padding-inline-start($n) {
+  @include _((scroll-padding-inline-start: $n));
+}
+
+@mixin scroll-padding-left($n) {
+  @include _((scroll-padding-left: $n));
+}
+
+@mixin scroll-padding-right($n) {
+  @include _((scroll-padding-right: $n));
+}
+
+@mixin scroll-padding-top($n) {
+  @include _((scroll-padding-top: $n));
+}
+
+@mixin scroll-snap-align($n) {
+  @include _((scroll-snap-align: $n));
+}
+
+@mixin scroll-snap-margin($n) {
+  @include _((scroll-snap-margin: $n));
+}
+
+@mixin scroll-snap-margin-block($n) {
+  @include _((scroll-snap-margin-block: $n));
+}
+
+@mixin scroll-snap-margin-block-end($n) {
+  @include _((scroll-snap-margin-block-end: $n));
+}
+
+@mixin scroll-snap-margin-block-start($n) {
+  @include _((scroll-snap-margin-block-start: $n));
+}
+
+@mixin scroll-snap-margin-bottom($n) {
+  @include _((scroll-snap-margin-bottom: $n));
+}
+
+@mixin scroll-snap-margin-inline($n) {
+  @include _((scroll-snap-margin-inline: $n));
+}
+
+@mixin scroll-snap-margin-inline-end($n) {
+  @include _((scroll-snap-margin-inline-end: $n));
+}
+
+@mixin scroll-snap-margin-inline-start($n) {
+  @include _((scroll-snap-margin-inline-start: $n));
+}
+
+@mixin scroll-snap-margin-left($n) {
+  @include _((scroll-snap-margin-left: $n));
+}
+
+@mixin scroll-snap-margin-right($n) {
+  @include _((scroll-snap-margin-right: $n));
+}
+
+@mixin scroll-snap-margin-top($n) {
+  @include _((scroll-snap-margin-top: $n));
+}
+
+@mixin scroll-snap-stop($n) {
+  @include _((scroll-snap-stop: $n));
+}
+
+@mixin scroll-snap-type($n) {
+  @include _((scroll-snap-type: $n));
+}
+
+@mixin scrollbar-gutter($n) {
+  @include _((scrollbar-gutter: $n));
+}
+
+@mixin shape-image-threshold($n) {
+  @include _((shape-image-threshold: $n));
+}
+
+@mixin shape-inside($n) {
+  @include _((shape-inside: $n));
+}
+
+@mixin shape-margin($n) {
+  @include _((shape-margin: $n));
+}
+
+@mixin shape-outside($n) {
+  @include _((shape-outside: $n));
+}
+
+@mixin size($n) {
+  @include _((size: $n));
+}
+
+@mixin speak($n) {
+  @include _((speak: $n));
+}
+
+@mixin speak-as($n) {
+  @include _((speak-as: $n));
+}
+
+@mixin speak-header($n) {
+  @include _((speak-header: $n));
+}
+
+@mixin speak-numeral($n) {
+  @include _((speak-numeral: $n));
+}
+
+@mixin speak-punctuation($n) {
+  @include _((speak-punctuation: $n));
+}
+
+@mixin speech-rate($n) {
+  @include _((speech-rate: $n));
+}
+
+@mixin stress($n) {
+  @include _((stress: $n));
+}
+
+@mixin string-set($n) {
+  @include _((string-set: $n));
+}
+
+@mixin stroke($n) {
+  @include _((stroke: $n));
+}
+
+@mixin stroke-alignment($n) {
+  @include _((stroke-alignment: $n));
+}
+
+@mixin stroke-dashadjust($n) {
+  @include _((stroke-dashadjust: $n));
+}
+
+@mixin stroke-dasharray($n) {
+  @include _((stroke-dasharray: $n));
+}
+
+@mixin stroke-dashcorner($n) {
+  @include _((stroke-dashcorner: $n));
+}
+
+@mixin stroke-dashoffset($n) {
+  @include _((stroke-dashoffset: $n));
+}
+
+@mixin stroke-linecap($n) {
+  @include _((stroke-linecap: $n));
+}
+
+@mixin stroke-linejoin($n) {
+  @include _((stroke-linejoin: $n));
+}
+
+@mixin stroke-miterlimit($n) {
+  @include _((stroke-miterlimit: $n));
+}
+
+@mixin stroke-opacity($n) {
+  @include _((stroke-opacity: $n));
+}
+
+@mixin stroke-width($n) {
+  @include _((stroke-width: $n));
+}
+
+@mixin tab-size($n) {
+  @include _((tab-size: $n));
+}
+
+@mixin table-layout($n) {
+  @include _((table-layout: $n));
+}
+
+@mixin text-align($n) {
+  @include _((text-align: $n));
+}
+
+@mixin text-align-all($n) {
+  @include _((text-align-all: $n));
+}
+
+@mixin text-align-last($n) {
+  @include _((text-align-last: $n));
+}
+
+@mixin text-combine-upright($n) {
+  @include _((text-combine-upright: $n));
+}
+
+@mixin text-decoration($n) {
+  @include _((text-decoration: $n));
+}
+
+@mixin text-decoration-color($n) {
+  @include _((text-decoration-color: $n));
+}
+
+@mixin text-decoration-line($n) {
+  @include _((text-decoration-line: $n));
+}
+
+@mixin text-decoration-skip($n) {
+  @include _((text-decoration-skip: $n));
+}
+
+@mixin text-decoration-style($n) {
+  @include _((text-decoration-style: $n));
+}
+
+@mixin text-emphasis($n) {
+  @include _((text-emphasis: $n));
+}
+
+@mixin text-emphasis-color($n) {
+  @include _((text-emphasis-color: $n));
+}
+
+@mixin text-emphasis-position($n) {
+  @include _((text-emphasis-position: $n));
+}
+
+@mixin text-emphasis-style($n) {
+  @include _((text-emphasis-style: $n));
+}
+
+@mixin text-indent($n) {
+  @include _((text-indent: $n));
+}
+
+@mixin text-justify($n) {
+  @include _((text-justify: $n));
+}
+
+@mixin text-orientation($n) {
+  @include _((text-orientation: $n));
+}
+
+@mixin text-overflow($n) {
+  @include _((text-overflow: $n));
+}
+
+@mixin text-shadow($n) {
+  @include _((text-shadow: $n));
+}
+
+@mixin text-space-collapse($n) {
+  @include _((text-space-collapse: $n));
+}
+
+@mixin text-space-trim($n) {
+  @include _((text-space-trim: $n));
+}
+
+@mixin text-spacing($n) {
+  @include _((text-spacing: $n));
+}
+
+@mixin text-transform($n) {
+  @include _((text-transform: $n));
+}
+
+@mixin text-underline-position($n) {
+  @include _((text-underline-position: $n));
+}
+
+@mixin text-wrap($n) {
+  @include _((text-wrap: $n));
+}
+
+@mixin top($n) {
+  @include _((top: $n));
+}
+
+@mixin transform($n) {
+  @include _((transform: $n));
+}
+
+@mixin transform-box($n) {
+  @include _((transform-box: $n));
+}
+
+@mixin transform-origin($n) {
+  @include _((transform-origin: $n));
+}
+
+@mixin transform-style($n) {
+  @include _((transform-style: $n));
+}
+
+@mixin transition($n) {
+  @include _((transition: $n));
+}
+
+@mixin transition-delay($n) {
+  @include _((transition-delay: $n));
+}
+
+@mixin transition-duration($n) {
+  @include _((transition-duration: $n));
+}
+
+@mixin transition-property($n) {
+  @include _((transition-property: $n));
+}
+
+@mixin transition-timing-function($n) {
+  @include _((transition-timing-function: $n));
+}
+
+@mixin unicode-bidi($n) {
+  @include _((unicode-bidi: $n));
+}
+
+@mixin user-select($n) {
+  @include _((user-select: $n));
+}
+
+@mixin vertical-align($n) {
+  @include _((vertical-align: $n));
+}
+
+@mixin visibility($n) {
+  @include _((visibility: $n));
+}
+
+@mixin voice-balance($n) {
+  @include _((voice-balance: $n));
+}
+
+@mixin voice-duration($n) {
+  @include _((voice-duration: $n));
+}
+
+@mixin voice-family($n) {
+  @include _((voice-family: $n));
+}
+
+@mixin voice-pitch($n) {
+  @include _((voice-pitch: $n));
+}
+
+@mixin voice-range($n) {
+  @include _((voice-range: $n));
+}
+
+@mixin voice-rate($n) {
+  @include _((voice-rate: $n));
+}
+
+@mixin voice-stress($n) {
+  @include _((voice-stress: $n));
+}
+
+@mixin voice-volume($n) {
+  @include _((voice-volume: $n));
+}
+
+@mixin volume($n) {
+  @include _((volume: $n));
+}
+
+@mixin white-space($n) {
+  @include _((white-space: $n));
+}
+
+@mixin widows($n) {
+  @include _((widows: $n));
+}
+
+@mixin width($n) {
+  @include _((width: $n));
+}
+
+@mixin will-change($n) {
+  @include _((will-change: $n));
+}
+
+@mixin word-break($n) {
+  @include _((word-break: $n));
+}
+
+@mixin word-spacing($n) {
+  @include _((word-spacing: $n));
+}
+
+@mixin word-wrap($n) {
+  @include _((word-wrap: $n));
+}
+
+@mixin wrap-after($n) {
+  @include _((wrap-after: $n));
+}
+
+@mixin wrap-before($n) {
+  @include _((wrap-before: $n));
+}
+
+@mixin wrap-flow($n) {
+  @include _((wrap-flow: $n));
+}
+
+@mixin wrap-inside($n) {
+  @include _((wrap-inside: $n));
+}
+
+@mixin wrap-through($n) {
+  @include _((wrap-through: $n));
+}
+
+@mixin writing-mode($n) {
+  @include _((writing-mode: $n));
+}
+
+@mixin z-index($n) {
+  @include _((z-index: $n));
+}
+
+@mixin gap($n) {
+  @include _((gap: $n));
+}
+
+@mixin grid-gap($n) {
+  @include _((grid-gap: $n));
+}
+
+@mixin pointer-events($n) {
+  @include _((pointer-events: $n));
+}

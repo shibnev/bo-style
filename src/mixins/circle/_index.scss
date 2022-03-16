@@ -1,0 +1,5 @@
+@mixin circle($wh) {
+  @include wh($wh);
+
+  border-radius: 50%;
+}

@@ -1,0 +1,12 @@
+@function get-last-key-name($list) {
+  @return nth(nth($list, -1), 0);
+}
+
+@mixin container($max-width, $padding) {
+  @include margin-x(auto);
+  @include padding-x($padding);
+  @include max-width($max-width + map-get($padding, get-last-key-name($padding)) * 2);
+  @include wh(100%);
+
+  position: relative;
+}

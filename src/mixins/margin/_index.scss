@@ -1,0 +1,7 @@
+@mixin margin-y($top: auto, $bottom: $top) {
+  @include _((margin-top: $top, margin-bottom: $bottom));
+}
+
+@mixin margin-x($left: auto, $right: $left) {
+  @include _((margin-left: $left, margin-right: $right));
+}

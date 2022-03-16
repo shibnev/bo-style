@@ -1,0 +1,20 @@
+@mixin pseudo($type: after, $content: '') {
+  @if $type == both {
+    &::before,
+    &::after {
+      content: $content;
+      display: block;
+
+      @content;
+    }
+  }
+
+  @else {
+    &::#{$type} {
+      content: $content;
+      display: block;
+
+      @content;
+    }
+  }
+}

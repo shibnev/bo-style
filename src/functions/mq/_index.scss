@@ -1,0 +1,10 @@
+@use 'sass:map';
+
+$min-max: 'min' !default;
+$breakpoints: ('mob': 0, 'xs': 600px, 'md': 1280px, 'lg': 2188px) !default;
+
+@function mq($width-name) {
+  $width: map.get($breakpoints, $width-name);
+
+  @return '(#{$min-max}-width: #{$width})';
+}
