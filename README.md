@@ -10,7 +10,7 @@ yarn add bo_style
 2. import folder and your config
 
 ```scss
-@import './scss';
+@import 'bo_style';
 @import './your-config.scss';
 ```
 
