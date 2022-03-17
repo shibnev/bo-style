@@ -1,5 +1,5 @@
 @function get-last-key-name($list) {
-  @return nth(nth($list, -1), 0);
+  @return nth(nth($list, -1), 1);
 }
 
 @mixin container($max-width, $padding) {

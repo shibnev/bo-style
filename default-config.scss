@@ -9,10 +9,6 @@ $breakpoints: ('mob': 0, 'xs': 600px, 'md': 1280px, 'lg': 2188px);
 // container
 $container-mw: 2028px;
 $container-padding: ('mob': 15px, 'xs': 50px, 'md': 50px, 'lg': 160px);
-$container-padding-mob: map.get($container-padding, 'mob');
-$container-padding-xs: map.get($container-padding, 'xs');
-$container-padding-md: map.get($container-padding, 'md');
-$container-padding-lg: map.get($container-padding, 'lg');
 
 // colors
 $dark: #000000;
