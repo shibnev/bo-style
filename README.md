@@ -16,9 +16,31 @@ yarn add bo_style
 
 simple example, how to use:
 ```scss
-div {
+$rem-baseline: 18px;
+$breakpoints: ('mob': 0, 'xs': 600px, 'xl': 1200px);
+
+.div {
   @include width(('mob': 20px, 'xl': 300px));
-  @include display(('mob': none, 'xs': flex));
+  @include display(('mob': block, 'xs': flex));
+}
+```
+compiles to:
+```css
+.div {
+  width: 20px;
+  display: block;
+}
+
+@media (min-width: 600px) {
+  .div {
+    display: flex;
+  }
+}
+
+@media (min-width: 1200px) {
+  .div {
+    width: 300px;
+  }
 }
 ```
 
