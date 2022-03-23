@@ -14,6 +14,14 @@ yarn add bo_style
 @import './your-config.scss';
 ```
 
+simple example, how to use:
+```scss
+div {
+  @include width(('mob': 20px, 'xl': 300px));
+  @include display(('mob': none, 'xs': flex));
+}
+```
+
 ---
 ## list of mixins, functions and placeholders
 
