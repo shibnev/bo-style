@@ -7,7 +7,7 @@ yarn add bo_style
 
 ## usage
 1. create config like this [default-config](https://github.com/shibnev/bo-style/blob/master/default-config.scss)
-2. import folder and your config
+2. import package and your config
 
 ```scss
 @import 'bo_style';
