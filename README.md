@@ -2,7 +2,7 @@
 
 install package
 ```bash
-yarn add bo_style
+yarn add bo_style -D
 ```
 
 ## usage
