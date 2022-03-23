@@ -27,7 +27,7 @@ $breakpoints: ('mob': 0, 'xs': 600px, 'xl': 1200px);
 compiles to:
 ```css
 .div {
-  width: 20px;
+  width: 1.111rem;
   display: block;
 }
 
@@ -39,7 +39,7 @@ compiles to:
 
 @media (min-width: 1200px) {
   .div {
-    width: 300px;
+    width: 16.667rem;
   }
 }
 ```
