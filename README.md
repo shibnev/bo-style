@@ -48,7 +48,7 @@ compiles to:
 ## list of mixins, functions and placeholders
 
 ### _
-- [_](https://github.com/shibnev/bo-style/blob/master/src/_/_.md)
+- [Main Mixin - _](https://github.com/shibnev/bo-style/blob/master/src/_/_.md)
 
 ### mixins
 - [abs-center](https://github.com/shibnev/bo-style/blob/master/src/mixins/abs-center/abs-center.md)
