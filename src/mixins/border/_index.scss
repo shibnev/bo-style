@@ -1,0 +1,7 @@
+@mixin border-x($x) {
+  @include _((border-left: $x, border-right: $x));
+}
+
+@mixin border-y($y) {
+  @include _((border-top: $y, border-bottom: $y));
+}
