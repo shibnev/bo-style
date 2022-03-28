@@ -1,6 +1,6 @@
 {
   "name": "bo_style",
-  "version": "1.2.8",
+  "version": "1.2.9",
   "description": "scss mixins for scss perverts",
   "main": "_index.sass",
   "type": "module",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shibnev/bo_style.git"
+    "url": "git+https://github.com/shibnev/bo-style.git"
   },
   "author": "Anton Shibnev",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/shibnev/bo_style/issues"
+    "url": "https://github.com/shibnev/bo-style/issues"
   },
-  "homepage": "https://github.com/shibnev/bo_style#readme",
+  "homepage": "https://github.com/shibnev/bo-style#readme",
   "dependencies": {
     "node-fetch": "^3.0.0"
   }
