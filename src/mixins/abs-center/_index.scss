@@ -1,4 +1,4 @@
-@mixin abs-center($plane) {
+@mixin abs-center($plane: null) {
   position: absolute;
 
   @if $plane == 'x' {
