@@ -70,3 +70,9 @@ compiles to:
 - [full-size](https://github.com/shibnev/bo-style/blob/master/src/helpers/full-size/full-size.md)
 - [list-reset](https://github.com/shibnev/bo-style/blob/master/src/helpers/list-reset/list-reset.md)
 - [spread](https://github.com/shibnev/bo-style/blob/master/src/helpers/spread/spread.md)
+
+---
+#### TODO
+
+- [ ] [sassdoc](http://sassdoc.com/)
+- [ ] mixins with breakpoints(wh, abs-center e.t.c)
