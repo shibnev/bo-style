@@ -1,8 +1,8 @@
 {
   "name": "bo_style",
-  "version": "1.3.0",
+  "version": "1.3.2",
   "description": "scss mixins for scss perverts",
-  "main": "_index.sass",
+  "main": "_index.scss",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
