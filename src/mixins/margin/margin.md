@@ -6,7 +6,7 @@ _Mixin that helps write margin on plane X_
 
 ### Parameters
 - `$left` - (***default ```auto```***)
-- `$right` - (***default ```$right```***)
+- `$right` - (***default ```$left```***)
 
 ### Example 1:
 ```scss
