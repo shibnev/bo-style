@@ -14,7 +14,7 @@
   }
 
   @else {
-    #{$property}: rem($val);
+    #{$property}: _rem($val);
   }
 }
 

@@ -16,7 +16,7 @@ html {
 }
 
 .foo {
-  width: rem(18px);
+  width: _rem(18px);
 }
 ```
 _compiled into:_

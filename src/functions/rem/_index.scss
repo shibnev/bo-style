@@ -65,7 +65,7 @@ $rem-px-only: false !default;
   @return if(length($result) == 1, nth($result, 1), $result);
 }
 
-@function rem($values...) {
+@function _rem($values...) {
   @if $rem-px-only {
     @return rem-convert(px, $values...);
   }
